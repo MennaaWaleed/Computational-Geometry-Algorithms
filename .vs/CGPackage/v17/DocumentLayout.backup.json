@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pc\\Desktop\\CGUI-master\\",
+  "WorkspaceRootPath": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|c:\\users\\pc\\desktop\\cgui-master\\cgalgorithms\\algorithms\\convexhull\\extremepoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\convexhull\\extremepoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|c:\\users\\pc\\desktop\\8th term\\geometry\\computational geometry algorithms\\cgalgorithms\\algorithms\\convexhull\\jarvismarch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\convexhull\\jarvismarch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|c:\\users\\pc\\desktop\\cgui-master\\cgalgorithms\\algorithms\\convexhull\\extremesegments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\convexhull\\extremesegments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\convexhull\\extremesegments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\convexhull\\extremepoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\convexhull\\extremepoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExtremeSegments.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\CGUI-master\\CGAlgorithms\\Algorithms\\ConvexHull\\ExtremeSegments.cs",
-              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\ExtremeSegments.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\CGUI-master\\CGAlgorithms\\Algorithms\\ConvexHull\\ExtremeSegments.cs",
-              "RelativeToolTip": "CGAlgorithms\\Algorithms\\ConvexHull\\ExtremeSegments.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAowGkAAAABAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "JarvisMarch.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\JarvisMarch.cs",
+              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\JarvisMarch.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\JarvisMarch.cs*",
+              "RelativeToolTip": "CGAlgorithms\\Algorithms\\ConvexHull\\JarvisMarch.cs*",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAQwBEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T21:04:43.527Z",
+              "WhenOpened": "2026-03-15T15:24:19.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ExtremePoints.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\CGUI-master\\CGAlgorithms\\Algorithms\\ConvexHull\\ExtremePoints.cs",
-              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\ExtremePoints.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\CGUI-master\\CGAlgorithms\\Algorithms\\ConvexHull\\ExtremePoints.cs",
-              "RelativeToolTip": "CGAlgorithms\\Algorithms\\ConvexHull\\ExtremePoints.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ExtremeSegments.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\ExtremeSegments.cs",
+              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\ExtremeSegments.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\ExtremeSegments.cs",
+              "RelativeToolTip": "CGAlgorithms\\Algorithms\\ConvexHull\\ExtremeSegments.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAYwDkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T21:04:42.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-08T21:04:43.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ExtremePoints.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\ExtremePoints.cs",
+              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\ExtremePoints.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\ExtremePoints.cs",
+              "RelativeToolTip": "CGAlgorithms\\Algorithms\\ConvexHull\\ExtremePoints.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwE4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T21:04:42.179Z"
             }
           ]
         }

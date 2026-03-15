@@ -21,6 +21,7 @@ namespace CGAlgorithms.Algorithms.ConvexHull
             outPoints = new List<Point>();
             if (points.Count == 1)
             {
+
                 outPoints.Add(points[0]);
                 return;
             }
