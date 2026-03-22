@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|c:\\users\\pc\\desktop\\8th term\\geometry\\computational geometry algorithms\\cgalgorithms\\algorithms\\convexhull\\jarvismarch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\convexhull\\jarvismarch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\convexhull\\jarvismarch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CF0939D-73CF-4863-B088-DB3FF4003450}|CGUtilities\\CGUtilities.csproj|c:\\users\\pc\\desktop\\8th term\\geometry\\computational geometry algorithms\\cgutilities\\helpermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CF0939D-73CF-4863-B088-DB3FF4003450}|CGUtilities\\CGUtilities.csproj|solutionrelative:cgutilities\\helpermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|c:\\users\\pc\\desktop\\8th term\\geometry\\computational geometry algorithms\\cgalgorithms\\algorithms\\convexhull\\grahamscan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\convexhull\\grahamscan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE6BE80-4D3A-4ED0-86D2-250D4B3E0CE3}|CGAlgorithmsUnitTest\\CGAlgorithmsUnitTest.csproj|c:\\users\\pc\\desktop\\8th term\\geometry\\computational geometry algorithms\\cgalgorithmsunittest\\convexhull\\grahamscantest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE6BE80-4D3A-4ED0-86D2-250D4B3E0CE3}|CGAlgorithmsUnitTest\\CGAlgorithmsUnitTest.csproj|solutionrelative:cgalgorithmsunittest\\convexhull\\grahamscantest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\convexhull\\quickhull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\convexhull\\quickhull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\convexhull\\extremesegments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +29,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\convexhull\\extremepoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\convexhull\\extremepoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\convexhull\\divideandconquer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\convexhull\\divideandconquer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +42,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HelperMethods.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGUtilities\\HelperMethods.cs",
+              "RelativeDocumentMoniker": "CGUtilities\\HelperMethods.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGUtilities\\HelperMethods.cs",
+              "RelativeToolTip": "CGUtilities\\HelperMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T12:52:13.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GrahamScanTest.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithmsUnitTest\\ConvexHull\\GrahamScanTest.cs",
+              "RelativeDocumentMoniker": "CGAlgorithmsUnitTest\\ConvexHull\\GrahamScanTest.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithmsUnitTest\\ConvexHull\\GrahamScanTest.cs",
+              "RelativeToolTip": "CGAlgorithmsUnitTest\\ConvexHull\\GrahamScanTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T12:47:33.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GrahamScan.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\GrahamScan.cs",
+              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\GrahamScan.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\GrahamScan.cs",
+              "RelativeToolTip": "CGAlgorithms\\Algorithms\\ConvexHull\\GrahamScan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T16:24:29.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuickHull.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\QuickHull.cs",
+              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\QuickHull.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\QuickHull.cs",
+              "RelativeToolTip": "CGAlgorithms\\Algorithms\\ConvexHull\\QuickHull.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T16:24:27.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DivideAndConquer.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\DivideAndConquer.cs",
+              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\DivideAndConquer.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\DivideAndConquer.cs",
+              "RelativeToolTip": "CGAlgorithms\\Algorithms\\ConvexHull\\DivideAndConquer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T16:24:16.35Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "JarvisMarch.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\JarvisMarch.cs",
               "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\JarvisMarch.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\JarvisMarch.cs*",
-              "RelativeToolTip": "CGAlgorithms\\Algorithms\\ConvexHull\\JarvisMarch.cs*",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAQwBEAAAAXAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\JarvisMarch.cs",
+              "RelativeToolTip": "CGAlgorithms\\Algorithms\\ConvexHull\\JarvisMarch.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwDMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-15T15:24:19.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ExtremeSegments.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\ExtremeSegments.cs",
               "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\ExtremeSegments.cs",
@@ -51,7 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ExtremePoints.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\ExtremePoints.cs",
               "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\ExtremePoints.cs",

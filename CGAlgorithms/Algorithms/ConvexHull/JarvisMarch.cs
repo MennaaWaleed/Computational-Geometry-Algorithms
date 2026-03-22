@@ -30,14 +30,14 @@ namespace CGAlgorithms.Algorithms.ConvexHull
                 outPoints.Add(points[1]);
                 return;
             }
-            if(points.Count == 3)
-            {
-                outPoints = new List<Point>();
-                outPoints.Add(points[0]);
-                outPoints.Add(points[1]);
-                outPoints.Add(points[2]);
-                return;
-            }
+            //if(points.Count == 3)
+            //{
+            //    outPoints = new List<Point>();
+            //    outPoints.Add(points[0]);
+            //    outPoints.Add(points[1]);
+            //    outPoints.Add(points[2]);
+            //    return;
+            //}
 
 
             Point s = new Point(Int32.MaxValue, Int32.MaxValue);
