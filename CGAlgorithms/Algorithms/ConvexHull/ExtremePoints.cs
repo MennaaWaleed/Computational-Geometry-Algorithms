@@ -32,26 +32,26 @@ namespace CGAlgorithms.Algorithms.ConvexHull
 
 
             HashSet<Point> rm = new HashSet<Point>();
-
-            for (int i = 0; i < points.Count; ++i)
+            int n = points.Count;
+            for (int i = 0; i < n; ++i)
             {
                 Point p = points[i];
 
-                for (int j = 0; j < points.Count; ++j)
+                for (int j = 0; j < n; ++j)
                 {
                     if (i == j)
                     {
                         continue;
                     }
                     Point a = points[j];
-                    for (int k = j + 1; k < points.Count; ++k)
+                    for (int k = j + 1; k < n; ++k)
                     {
                         if (i == k)
                         {
                             continue;
                         }
                         Point b = points[k];
-                        for (int l = k + 1; l < points.Count; ++l)
+                        for (int l = k + 1; l < n; ++l)
                         {
                             if (i == l)
                             {
@@ -90,7 +90,8 @@ namespace CGAlgorithms.Algorithms.ConvexHull
                     i--;
                 }
             }
-            for (int i = 0; i < points.Count; i++)
+            n= points.Count;
+            for (int i = 0; i < n; i++)
             {
                 if (!outPoints.Contains(points[i]))
                     outPoints.Add(points[i]);
