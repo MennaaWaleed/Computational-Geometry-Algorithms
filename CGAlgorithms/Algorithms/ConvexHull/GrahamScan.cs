@@ -34,8 +34,9 @@ namespace CGAlgorithms.Algorithms.ConvexHull
 
             Point mn = new Point(Int32.MaxValue, Int32.MaxValue);
 
-            //pick the minimum point in the y axis (if there are more than one, the minimum in the x axis) and the start point of the convex 
-            for (int i = 0; i < points.Count; i++)
+            //pick the min point in y axis
+            int n = points.Count;
+            for (int i = 0; i < n; i++)
             {
                 if (points[i].Y < mn.Y || (points[i].Y == mn.Y && points[i].X < mn.X))
                 {
@@ -43,11 +44,11 @@ namespace CGAlgorithms.Algorithms.ConvexHull
                 }
             }
             List<Point> temp = new List<Point>();
-            foreach (Point p in points)
+            for(int i = 0;i<n;++i)
             {
-                if (!temp.Contains(p))
+                if (!temp.Contains(points[i]))
                 {
-                    temp.Add(p);
+                    temp.Add(points[i]);
                 }
             }
             points = temp;
@@ -60,7 +61,8 @@ namespace CGAlgorithms.Algorithms.ConvexHull
             s.Push(points[0]);
 
             points.Add(mn);
-            for (int i = 1; i < points.Count; i++)
+            n= points.Count;
+            for (int i = 1; i < n; i++)
             {
                 if (s.Count < 2)
                 {
@@ -95,9 +97,9 @@ namespace CGAlgorithms.Algorithms.ConvexHull
                 s.Pop();
             }
         }
-        double CalcAngle(Point pivot, Point p)
+        double CalcAngle(Point N, Point p)
         {
-            return Math.Atan2(p.Y - pivot.Y, p.X - pivot.X);
+            return Math.Atan2(p.Y - N.Y, p.X - N.X);
         }
 
         public override string ToString()
