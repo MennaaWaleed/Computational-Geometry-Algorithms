@@ -25,13 +25,20 @@ namespace CGAlgorithms.Algorithms.ConvexHull
                 outPoints.Add(points[0]);
                 return;
             }
+            if (points.Count == 2)
+            {
+                outPoints = new List<Point>();
+                outPoints.Add(points[0]);
+                outPoints.Add(points[1]);
+                return;
+            }
 
             HashSet<Point> rm = new HashSet<Point>();
-
-            for (int i = 0; i < points.Count; i++)
+            int n= points.Count;
+            for (int i = 0; i < n; i++)
             {
                 Point a = points[i];
-                for (int j = i + 1; j < points.Count; j++)
+                for (int j = i + 1; j < n; j++)
                 {
 
                     if (points[j].X == points[i].X && points[j].Y == points[i].Y) continue;
