@@ -59,5 +59,13 @@ namespace CGUtilities
         {
             return new Line((Point)Start.Clone(), (Point)End.Clone());
         }
+
+        public double GetYAt(double x) 
+        {
+            if (Math.Abs(End.X - Start.X) < 1e-9)
+                return Start.Y;
+            double m = (End.Y - Start.Y) / (End.X - Start.X);
+            return Start.Y + m * (x - Start.X);
+        }
     }
 }
