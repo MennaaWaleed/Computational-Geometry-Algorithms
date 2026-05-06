@@ -75,7 +75,7 @@ namespace CGAlgorithms.Algorithms.SegmentIntersection
                     foundIntersections.Add(key);
                 }
 
-                status.SwapLines(e.Segment1, e.Segment2);
+                status.SwapLines(e.Segment1, e.Segment2, x);
 
                 FindNewEvent(e.Segment1, status.FindBelow(e.Segment1, x), e.Location, eventQueue);
                 FindNewEvent(e.Segment1, status.FindAbove(e.Segment1, x), e.Location, eventQueue);
@@ -160,66 +160,94 @@ namespace CGAlgorithms.Algorithms.SegmentIntersection
 
     public class StatusStructure
     {
-        public List<Line> Lines { get; private set; } = new List<Line>();
-        public StatusComparer Comparer { get; private set; } = new StatusComparer();
+        private AVLTree<Line> tree;
+        public StatusComparer Comparer { get; private set; }
+
+        public StatusStructure()
+        {
+            Comparer = new StatusComparer();
+            tree = new AVLTree<Line>(Comparer);
+        }
 
         public void Add(Line s, double x)
         {
             Comparer.SweepLineX = x;
-            int index = Lines.BinarySearch(s, Comparer);
-            if (index < 0) index = ~index;
-            Lines.Insert(index, s);
+            tree.Insert(s);
         }
 
         public void Remove(Line s, double x)
         {
-            Lines.Remove(s);
+            Comparer.SweepLineX = x;
+            tree.Delete(s);
         }
 
         public Line FindAbove(Line s, double x)
         {
-            int index = Lines.IndexOf(s);
-            if (index != -1 && index < Lines.Count - 1) return Lines[index + 1];
-            return null;
+            Comparer.SweepLineX = x;
+            return tree.FindSuccessor(s);
         }
 
         public Line FindBelow(Line s, double x)
         {
-            int index = Lines.IndexOf(s);
-            if (index > 0) return Lines[index - 1];
-            return null;
+            Comparer.SweepLineX = x;
+            return tree.FindPredecessor(s);
         }
 
         public void SwapLines(Line s1, Line s2)
         {
-            int idx1 = Lines.IndexOf(s1);
-            int idx2 = Lines.IndexOf(s2);
-            if (idx1 != -1 && idx2 != -1)
-            {
-                Line temp = Lines[idx1];
-                Lines[idx1] = Lines[idx2];
-                Lines[idx2] = temp;
-            }
+            SwapLines(s1, s2, Comparer.SweepLineX);
+        }
+
+        public void SwapLines(Line s1, Line s2, double x)
+        {
+            Comparer.SweepLineX = x - 1e-8;
+            tree.Delete(s1);
+            tree.Delete(s2);
+
+            Comparer.SweepLineX = x + 1e-8;
+            tree.Insert(s1);
+            tree.Insert(s2);
+
+            Comparer.SweepLineX = x; 
         }
     }
-
     public class StatusComparer : IComparer<Line>
     {
         public double SweepLineX { get; set; }
+
         public int Compare(Line s1, Line s2)
         {
             if (ReferenceEquals(s1, s2)) return 0;
+
             double y1 = GetYAt(s1, SweepLineX);
             double y2 = GetYAt(s2, SweepLineX);
-            if (Math.Abs(y1 - y2) > 1e-9) return y1.CompareTo(y2);
+
+            if (Math.Abs(y1 - y2) > 1e-9)
+                return y1.CompareTo(y2);
+
+            double m1 = GetSlope(s1);
+            double m2 = GetSlope(s2);
+
+            if (Math.Abs(m1 - m2) > 1e-9)
+                return m1.CompareTo(m2);
+
             return s1.GetHashCode().CompareTo(s2.GetHashCode());
         }
 
         private double GetYAt(Line l, double x)
         {
-            if (Math.Abs(l.End.X - l.Start.X) < 1e-9) return l.Start.Y;
-            double m = (l.End.Y - l.Start.Y) / (l.End.X - l.Start.X);
+            if (Math.Abs(l.End.X - l.Start.X) < 1e-9)
+                return Math.Max(l.Start.Y, l.End.Y);
+
+            double m = GetSlope(l);
             return l.Start.Y + m * (x - l.Start.X);
+        }
+
+        private double GetSlope(Line l)
+        {
+            if (Math.Abs(l.End.X - l.Start.X) < 1e-9)
+                return double.MaxValue; // Vertical line
+            return (l.End.Y - l.Start.Y) / (l.End.X - l.Start.X);
         }
     }
 }

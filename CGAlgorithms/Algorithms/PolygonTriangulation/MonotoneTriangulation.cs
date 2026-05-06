@@ -12,7 +12,6 @@ namespace CGAlgorithms.Algorithms.PolygonTriangulation
         {
 
         }
-
         public override string ToString()
         {
             return "Monotone Triangulation";

@@ -52,6 +52,7 @@
     <Compile Include="Algorithms\PolygonTriangulation\MonotonePartitioning.cs" />
     <Compile Include="Algorithms\PolygonTriangulation\MonotoneTriangulation.cs" />
     <Compile Include="Algorithms\PolygonTriangulation\SubtractingEars.cs" />
+    <Compile Include="Algorithms\SegmentIntersection\AVLTree.cs" />
     <Compile Include="Algorithms\SegmentIntersection\SweepLine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
