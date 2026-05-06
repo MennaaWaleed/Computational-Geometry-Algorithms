@@ -3,15 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\segmentintersection\\avltree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\segmentintersection\\avltree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\convexhull\\divideandconquer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\convexhull\\divideandconquer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\convexhull\\incremental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\convexhull\\incremental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|c:\\users\\pc\\desktop\\8th term\\geometry\\computational geometry algorithms\\cgalgorithms\\algorithms\\convexhull\\grahamscan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\convexhull\\grahamscan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\polygontriangulation\\insertingdiagonals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\polygontriangulation\\insertingdiagonals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CF0939D-73CF-4863-B088-DB3FF4003450}|CGUtilities\\CGUtilities.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgutilities\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CF0939D-73CF-4863-B088-DB3FF4003450}|CGUtilities\\CGUtilities.csproj|solutionrelative:cgutilities\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\segmentintersection\\sweepline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\segmentintersection\\sweepline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|c:\\users\\pc\\desktop\\8th term\\geometry\\computational geometry algorithms\\cgalgorithms\\algorithms\\polygontriangulation\\monotonetriangulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\segmentintersection\\avltree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\segmentintersection\\avltree.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\polygontriangulation\\monotonetriangulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\polygontriangulation\\monotonetriangulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -33,24 +53,12 @@
       "RelativeMoniker": "D:0:0:{2CF0939D-73CF-4863-B088-DB3FF4003450}|CGUtilities\\CGUtilities.csproj|solutionrelative:cgutilities\\helpermethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CF0939D-73CF-4863-B088-DB3FF4003450}|CGUtilities\\CGUtilities.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgutilities\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CF0939D-73CF-4863-B088-DB3FF4003450}|CGUtilities\\CGUtilities.csproj|solutionrelative:cgutilities\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\convexhull\\quickhull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\convexhull\\quickhull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\polygontriangulation\\insertingdiagonals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\polygontriangulation\\insertingdiagonals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\polygontriangulation\\monotonepartitioning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\polygontriangulation\\monotonepartitioning.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\convexhull\\grahamscan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\convexhull\\grahamscan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\convexhull\\extremesegments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,14 +67,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\convexhull\\extremepoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\convexhull\\extremepoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\convexhull\\incremental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\convexhull\\incremental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\cgalgorithms\\algorithms\\convexhull\\divideandconquer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CB99923-BEA8-42FB-8B29-B117E2221958}|CGAlgorithms\\CGAlgorithms.csproj|solutionrelative:cgalgorithms\\algorithms\\convexhull\\divideandconquer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -76,74 +76,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MonotoneTriangulation.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\PolygonTriangulation\\MonotoneTriangulation.cs",
-              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\PolygonTriangulation\\MonotoneTriangulation.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\PolygonTriangulation\\MonotoneTriangulation.cs*",
-              "RelativeToolTip": "CGAlgorithms\\Algorithms\\PolygonTriangulation\\MonotoneTriangulation.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T19:05:04.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SweepLine.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\SegmentIntersection\\SweepLine.cs",
-              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\SegmentIntersection\\SweepLine.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\SegmentIntersection\\SweepLine.cs",
-              "RelativeToolTip": "CGAlgorithms\\Algorithms\\SegmentIntersection\\SweepLine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJoAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T19:05:15.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SubtractingEars.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\SubtractingEars.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\SubtractingEars.cs",
-              "ToolTip": "C:\\Users\\pc\\Downloads\\SubtractingEars.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\SubtractingEars.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T15:12:20.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AVLTree.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\SegmentIntersection\\AVLTree.cs",
-              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\SegmentIntersection\\AVLTree.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\SegmentIntersection\\AVLTree.cs",
-              "RelativeToolTip": "CGAlgorithms\\Algorithms\\SegmentIntersection\\AVLTree.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T12:56:06.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SubtractingEars.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\PolygonTriangulation\\SubtractingEars.cs",
-              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\PolygonTriangulation\\SubtractingEars.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\PolygonTriangulation\\SubtractingEars.cs",
-              "RelativeToolTip": "CGAlgorithms\\Algorithms\\PolygonTriangulation\\SubtractingEars.cs",
-              "ViewState": "AgIAAPUAAAAAAAAAAAAcwBUBAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T19:05:02.058Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "QuickHull.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\QuickHull.cs",
               "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\QuickHull.cs",
@@ -155,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "HelperMethods.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGUtilities\\HelperMethods.cs",
               "RelativeDocumentMoniker": "CGUtilities\\HelperMethods.cs",
@@ -167,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Line.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGUtilities\\Line.cs",
               "RelativeDocumentMoniker": "CGUtilities\\Line.cs",
@@ -179,7 +116,118 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
+              "Title": "InsertingDiagonals.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\PolygonTriangulation\\InsertingDiagonals.cs",
+              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\PolygonTriangulation\\InsertingDiagonals.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\PolygonTriangulation\\InsertingDiagonals.cs",
+              "RelativeToolTip": "CGAlgorithms\\Algorithms\\PolygonTriangulation\\InsertingDiagonals.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T19:05:07.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GrahamScan.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\GrahamScan.cs",
+              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\GrahamScan.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\GrahamScan.cs",
+              "RelativeToolTip": "CGAlgorithms\\Algorithms\\ConvexHull\\GrahamScan.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwCAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T16:24:29.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Incremental.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\Incremental.cs",
+              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\Incremental.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\Incremental.cs",
+              "RelativeToolTip": "CGAlgorithms\\Algorithms\\ConvexHull\\Incremental.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T07:03:13.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DivideAndConquer.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\DivideAndConquer.cs",
+              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\DivideAndConquer.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\DivideAndConquer.cs",
+              "RelativeToolTip": "CGAlgorithms\\Algorithms\\ConvexHull\\DivideAndConquer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T16:24:16.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AVLTree.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\SegmentIntersection\\AVLTree.cs",
+              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\SegmentIntersection\\AVLTree.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\SegmentIntersection\\AVLTree.cs",
+              "RelativeToolTip": "CGAlgorithms\\Algorithms\\SegmentIntersection\\AVLTree.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T12:56:06.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SweepLine.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\SegmentIntersection\\SweepLine.cs",
+              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\SegmentIntersection\\SweepLine.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\SegmentIntersection\\SweepLine.cs",
+              "RelativeToolTip": "CGAlgorithms\\Algorithms\\SegmentIntersection\\SweepLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAACcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T19:05:15.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SubtractingEars.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\PolygonTriangulation\\SubtractingEars.cs",
+              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\PolygonTriangulation\\SubtractingEars.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\PolygonTriangulation\\SubtractingEars.cs",
+              "RelativeToolTip": "CGAlgorithms\\Algorithms\\PolygonTriangulation\\SubtractingEars.cs",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAcwBUBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T19:05:02.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SubtractingEars.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Downloads\\SubtractingEars.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\SubtractingEars.cs",
+              "ToolTip": "C:\\Users\\pc\\Downloads\\SubtractingEars.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\SubtractingEars.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T15:12:20.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MonotoneTriangulation.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\PolygonTriangulation\\MonotoneTriangulation.cs",
+              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\PolygonTriangulation\\MonotoneTriangulation.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\PolygonTriangulation\\MonotoneTriangulation.cs",
+              "RelativeToolTip": "CGAlgorithms\\Algorithms\\PolygonTriangulation\\MonotoneTriangulation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T19:05:04.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "JarvisMarch.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\JarvisMarch.cs",
               "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\JarvisMarch.cs",
@@ -191,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "SweepLine.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Downloads\\SweepLine.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\SweepLine.cs",
@@ -203,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "MonotonePartitioning.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\PolygonTriangulation\\MonotonePartitioning.cs",
               "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\PolygonTriangulation\\MonotonePartitioning.cs",
@@ -215,43 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InsertingDiagonals.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\PolygonTriangulation\\InsertingDiagonals.cs",
-              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\PolygonTriangulation\\InsertingDiagonals.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\PolygonTriangulation\\InsertingDiagonals.cs",
-              "RelativeToolTip": "CGAlgorithms\\Algorithms\\PolygonTriangulation\\InsertingDiagonals.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-26T19:05:07.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GrahamScan.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\GrahamScan.cs",
-              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\GrahamScan.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\GrahamScan.cs",
-              "RelativeToolTip": "CGAlgorithms\\Algorithms\\ConvexHull\\GrahamScan.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAQwD8AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T16:24:29.954Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DivideAndConquer.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\DivideAndConquer.cs",
-              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\DivideAndConquer.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\DivideAndConquer.cs",
-              "RelativeToolTip": "CGAlgorithms\\Algorithms\\ConvexHull\\DivideAndConquer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T16:24:16.35Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "ExtremeSegments.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\ExtremeSegments.cs",
               "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\ExtremeSegments.cs",
@@ -263,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ExtremePoints.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\ExtremePoints.cs",
               "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\ExtremePoints.cs",
@@ -272,18 +284,6 @@
               "ViewState": "AgIAAEYAAAAAAAAAAAAQwE4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-08T21:04:42.179Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Incremental.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\Incremental.cs",
-              "RelativeDocumentMoniker": "CGAlgorithms\\Algorithms\\ConvexHull\\Incremental.cs",
-              "ToolTip": "C:\\Users\\pc\\Desktop\\8th Term\\Geometry\\Computational Geometry Algorithms\\CGAlgorithms\\Algorithms\\ConvexHull\\Incremental.cs",
-              "RelativeToolTip": "CGAlgorithms\\Algorithms\\ConvexHull\\Incremental.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T07:03:13.88Z"
             }
           ]
         }
