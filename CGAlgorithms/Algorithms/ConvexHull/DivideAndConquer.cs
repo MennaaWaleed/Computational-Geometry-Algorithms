@@ -8,6 +8,12 @@ public class DivideAndConquer : Algorithm
 {
     public override void Run(List<Point> points, List<Line> lines, List<Polygon> polygons, ref List<Point> outPoints, ref List<Line> outLines, ref List<Polygon> outPolygons)
     {
+        outLines.Clear();
+        outPolygons.Clear();
+        outPoints.Clear();
+
+
+
         if (points.Count < 3)
         {
             outPoints = new List<Point>(points);
@@ -81,13 +87,11 @@ public class DivideAndConquer : Algorithm
 
     public List<Point> Merge(List<Point> Lift, List<Point> Right)
     {
-        int LiftLargestPoint = LargestX(Lift);
-        int RightSmallestPoint = SmallestX(Right);
         int LeftCount = Lift.Count;
         int RightCount = Right.Count;
         bool Change;
-        int UpperRightIndex = RightSmallestPoint;
-        int UpperLeftIndex = LiftLargestPoint;
+        int UpperRightIndex = SmallestX(Right);
+        int UpperLeftIndex = LargestX(Lift);
         int OldRight = (RightCount + UpperRightIndex - 1) % RightCount;
         int NextToLeft = (UpperLeftIndex + 1) % LeftCount;
 
@@ -97,7 +101,8 @@ public class DivideAndConquer : Algorithm
             {
                 if (HelperMethods.CheckTurn(new Line(Right[UpperRightIndex], Lift[UpperLeftIndex]), Lift[NextToLeft]) == Enums.TurnType.Right)
                 {
-                    UpperLeftIndex = NextToLeft; NextToLeft = (UpperLeftIndex + 1) % LeftCount;
+                    UpperLeftIndex = NextToLeft;
+                    NextToLeft = (UpperLeftIndex + 1) % LeftCount;
                     Change = false;
                 }
                 else
@@ -123,12 +128,13 @@ public class DivideAndConquer : Algorithm
 
             if (Change == true && (HelperMethods.CheckTurn(new Line(Lift[UpperLeftIndex], Right[UpperRightIndex]), Right[OldRight]) == Enums.TurnType.Colinear))
             {
-                UpperRightIndex = OldRight; OldRight = (RightCount + UpperRightIndex - 1) % RightCount;
+                UpperRightIndex = OldRight;
+                OldRight = (RightCount + UpperRightIndex - 1) % RightCount;
             }
         } while (Change == false);
 
-        int LowerLeftIndex = LiftLargestPoint;
-        int LowerRightIndex = RightSmallestPoint;
+        int LowerLeftIndex = LargestX(Lift);
+        int LowerRightIndex = SmallestX(Right);
         int OldLeft = (LeftCount + LowerLeftIndex - 1) % LeftCount;
         int NextToRight = (LowerRightIndex + 1) % RightCount;
 
@@ -144,20 +150,21 @@ public class DivideAndConquer : Algorithm
 
             if (Change == true && (HelperMethods.CheckTurn(new Line(Right[LowerRightIndex], Lift[LowerLeftIndex]), Lift[OldLeft]) == Enums.TurnType.Colinear))
             {
-                LowerLeftIndex = OldLeft; OldLeft = (LeftCount + LowerLeftIndex - 1) % LeftCount;
+                LowerLeftIndex = OldLeft;
+                OldLeft = (LeftCount + LowerLeftIndex - 1) % LeftCount;
             }
 
             while (HelperMethods.CheckTurn(new Line(Lift[LowerLeftIndex], Right[LowerRightIndex]), Right[NextToRight]) == Enums.TurnType.Right)
             {
                 Change = false;
-
                 LowerRightIndex = NextToRight;
                 NextToRight = (LowerRightIndex + 1) % RightCount;
             }
 
             if (Change == true && (HelperMethods.CheckTurn(new Line(Lift[LowerLeftIndex], Right[LowerRightIndex]), Right[NextToRight]) == Enums.TurnType.Colinear))
             {
-                LowerRightIndex = NextToRight; NextToRight = (LowerRightIndex + 1) % RightCount;
+                LowerRightIndex = NextToRight;
+                NextToRight = (LowerRightIndex + 1) % RightCount;
             }
         } while (Change == false);
 

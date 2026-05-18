@@ -11,6 +11,9 @@ namespace CGAlgorithms.Algorithms.PolygonTriangulation
     {
         public override void Run(List<Point> points, List<Line> lines, List<Polygon> polygons, ref List<Point> outPoints, ref List<Line> outLines, ref List<Polygon> outPolygons)
         {
+            outLines.Clear();
+            outPolygons.Clear();
+            outPoints.Clear();
 
             List<Point> verticess = new List<Point>(points);
 
@@ -18,31 +21,28 @@ namespace CGAlgorithms.Algorithms.PolygonTriangulation
             {
                 List<Line> ordered = new List<Line>();
                 ordered.Add(lines[0]);
-                Line l1 = ordered[ordered.Count - 1];
-                lines .Remove(l1);
+                Line l1 = lines[0];
+                lines.Remove(l1);
                 while (lines.Count > 0)
                 {
 
-                    //Line next = lines.Find(l => l.Start.Equals(l1.End));));
                     Line next = lines.Find(l => Math.Sqrt(Math.Pow(l.Start.X - l1.End.X, 2) + Math.Pow(l.Start.Y - l1.End.Y, 2)) < 5);
                     if (next == null)
                     {
                         next = lines.Find(l => Math.Sqrt(Math.Pow(l.End.X - l1.End.X, 2) + Math.Pow(l.End.Y - l1.End.Y, 2)) < 5);
                         if (next != null)
                         {
-                            Point ps = next.Start;
-                            Point pe = next.End;
-                            next.Start = pe;
-                            next.End = ps;
+                            //swap start and end
+                            Point S = next.Start;
+                            Point E = next.End;
+                            next.Start = E;
+                            next.End = S;
                         }
-
-
                     }
                     ordered.Add(next);
                     l1 = next;
                     lines.Remove(next);
                 }
-
 
                 verticess.Clear();
                 foreach (var line in ordered)
@@ -67,17 +67,22 @@ namespace CGAlgorithms.Algorithms.PolygonTriangulation
                 }
             }
 
-            if (clockwise(verticess))
+            //check  points are clockwise
+            if (check(verticess))
             {
                 verticess.Reverse();
             }
+
             //0 for convex, 1 for concave
             Dictionary<Point, int> vertexType = new Dictionary<Point, int>();
 
+
+            //linked list to be able to delete
             LinkedList<Point> list = new LinkedList<Point>(verticess);
 
             LinkedListNode<Point> current = list.First;
 
+            //mark points as convex or concave
             while (current != null)
             {
                 if (IsConvex(current, list))
@@ -94,6 +99,7 @@ namespace CGAlgorithms.Algorithms.PolygonTriangulation
 
 
             Dictionary<Point, Boolean> ear = new Dictionary<Point, Boolean>();
+            //mark points as ears or not
             for (int i = 0; i < verticess.Count; ++i)
             {
                 Boolean Ear = true;
@@ -107,7 +113,6 @@ namespace CGAlgorithms.Algorithms.PolygonTriangulation
                         if (vertexType[verticess[j]] == 1)//concave
                         {
                             Point con = verticess[j];
-
 
                             Ear = IsEar(con, a, b, c);
 
@@ -131,19 +136,20 @@ namespace CGAlgorithms.Algorithms.PolygonTriangulation
             while (list.Count > 3 && current != null)
             {
                 LinkedListNode<Point> nextt = current.Next ?? list.First;
+                LinkedListNode<Point> prevv = current.Previous ?? list.Last;
                 if (ear.ContainsKey(current.Value) && ear[current.Value])
                 {
 
-                    LinkedListNode<Point> prevv = current.Previous ?? list.Last;
-                    Point prev = current.Previous != null ? current.Previous.Value : list.Last.Value;
-                    Point next = current.Next != null ? current.Next.Value : list.First.Value;
-                    outLines.Add(new Line(prev, next));
+                    Point prevValue= current.Previous != null ? current.Previous.Value : list.Last.Value;
+                    Point nextValue = current.Next != null ? current.Next.Value : list.First.Value;
+                    outLines.Add(new Line(prevValue, nextValue));
                     list.Remove(current);
                     ear.Remove(current.Value);
                     //handle prev
-                    Boolean isConvex = IsConvex(prevv ?? list.Last, list);
+                    Boolean isConvex = IsConvex(prevv, list);
                     if (isConvex)
                     {
+                        vertexType[prevv.Value] = 0;
                         Point a, b, c;
                         if (prevv.Previous == null)
                         {
@@ -163,7 +169,6 @@ namespace CGAlgorithms.Algorithms.PolygonTriangulation
                         }
                         b = prevv.Value;
 
-                        vertexType[prevv.Value] = 0;
                         Boolean isEar = true;
                         for (int j = 0; j < verticess.Count; ++j)
                         {
@@ -191,9 +196,10 @@ namespace CGAlgorithms.Algorithms.PolygonTriangulation
                     }
 
                     //handle next 
-                    isConvex = IsConvex(nextt ?? list.First, list);
+                    isConvex = IsConvex(nextt , list);
                     if (isConvex)
                     {
+                        vertexType[nextt.Value] = 0;
                         Point a, b, c;
                         if (nextt.Previous == null)
                         {
@@ -213,7 +219,6 @@ namespace CGAlgorithms.Algorithms.PolygonTriangulation
                         }
                         b = nextt.Value;
 
-                        vertexType[nextt.Value] = 0;
                         Boolean isEar = true;
                         for (int j = 0; j < verticess.Count; ++j)
                         {
@@ -261,24 +266,25 @@ namespace CGAlgorithms.Algorithms.PolygonTriangulation
 
             return HelperMethods.CheckTurn(edgeEntering, pNext) == Enums.TurnType.Left;
         }
-        public bool clockwise(List<Point> points)
+        public bool check(List<Point> points)
         {
-            double sum = 0;
-            Point y;
+            double total = 0; Point p;
             for (int i = 0; i < points.Count; i++)
             {
 
                 if (i == points.Count - 1)
                 {
-                    y = points[0];
+                    p = points[0];
                 }
-                else y = points[i + 1];
+                else p = points[i + 1];
 
-                sum += HelperMethods.CrossProduct(points[i], y);
+                total += HelperMethods.CrossProduct(points[i], p);
             }
-
-
-            return sum < 0;
+            if(total > 0)
+            {
+                return false;
+            }
+            return true;
         }
         public override string ToString()
         {

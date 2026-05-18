@@ -12,6 +12,11 @@ namespace CGAlgorithms.Algorithms.ConvexHull
         public override void Run(List<Point> points, List<Line> lines, List<Polygon> polygons, ref List<Point> outPoints, ref List<Line> outLines, ref List<Polygon> outPolygons)
         {
 
+            outLines.Clear();
+            outPolygons.Clear();
+            outPoints.Clear();
+
+
             if (points.Count < 3)
             {
                 outPoints = new List<Point>(points);
@@ -108,18 +113,11 @@ namespace CGAlgorithms.Algorithms.ConvexHull
 
                 List<Point> newHull = new List<Point>();
 
-                int idx = left;
-                newHull.Add(hull[idx]);
-
-                while (idx != right)
-                {
-                    idx = (idx + 1) % hull.Count;
-                }
-
+                newHull.Add(hull[left]);
                 newHull.Add(p);
                 newHull.Add(hull[right]);
 
-                idx = (right + 1) % hull.Count;
+                int idx = (right + 1) % hull.Count;
                 while (idx != left)
                 {
                     newHull.Add(hull[idx]);

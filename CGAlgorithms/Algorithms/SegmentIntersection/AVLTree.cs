@@ -37,10 +37,11 @@ public class AVLTree<T>
     {
         if (node == null) return null;
 
+        //search for the node to delete
         int cmp = comparer.Compare(data, node.Data);
         if (cmp < 0) node.Left = Delete(node.Left, data);
         else if (cmp > 0) node.Right = Delete(node.Right, data);
-        else
+        else // found the node to delete
         {
             if (!ReferenceEquals(node.Data, data))
             {
@@ -49,9 +50,10 @@ public class AVLTree<T>
             }
             else
             {
+                // node with only one child or no child
                 if (node.Left == null || node.Right == null)
                     node = node.Left ?? node.Right;
-                else
+                else // node with two children
                 {
                     Node temp = GetMinValueNode(node.Right);
                     node.Data = temp.Data;

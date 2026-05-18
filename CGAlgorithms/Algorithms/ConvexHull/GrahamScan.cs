@@ -12,8 +12,15 @@ namespace CGAlgorithms.Algorithms.ConvexHull
     {
         public override void Run(List<Point> points, List<Line> lines, List<Polygon> polygons, ref List<Point> outPoints, ref List<Line> outLines, ref List<Polygon> outPolygons)
         {
-            if (points == null)
+
+            outLines.Clear();
+            outPolygons.Clear();
+            outPoints.Clear();
+
+
+            if (points == null)          //O(nlogn)
                 return;
+
             if (points.Count == 0)
             {
                 return;
@@ -22,7 +29,7 @@ namespace CGAlgorithms.Algorithms.ConvexHull
             {
                 outPoints = new List<Point>();
                 outPoints.Add(points[0]);
-                return;
+                return; 
             }
             if (points.Count == 2)
             {
@@ -43,6 +50,7 @@ namespace CGAlgorithms.Algorithms.ConvexHull
                     mn = points[i];
                 }
             }
+            //handle duplicates
             List<Point> temp = new List<Point>();
             for(int i = 0;i<n;++i)
             {
@@ -61,6 +69,7 @@ namespace CGAlgorithms.Algorithms.ConvexHull
             s.Push(points[0]);
 
             points.Add(mn);
+
             n= points.Count;
             for (int i = 1; i < n; i++)
             {

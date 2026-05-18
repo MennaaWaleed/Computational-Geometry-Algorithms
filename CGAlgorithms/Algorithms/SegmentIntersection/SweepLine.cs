@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 
 namespace CGAlgorithms.Algorithms.SegmentIntersection
 {
@@ -11,19 +12,28 @@ namespace CGAlgorithms.Algorithms.SegmentIntersection
 
         public override void Run(List<Point> points, List<Line> lines, List<Polygon> polygons, ref List<Point> outPoints, ref List<Line> outLines, ref List<Polygon> outPolygons)
         {
+            outLines.Clear();
+            outPolygons.Clear();
+            outPoints.Clear();
+
+
             var eventQueue = new SortedSet<Event>(new EventComparer());
             foundIntersections.Clear();
 
             foreach (var l in lines)
             {
+                // Ensure start is the leftmost point                          
                 if (l.Start.X > l.End.X)
                 {
+                    //swap
                     Point temp = l.Start;
                     l.Start = l.End;
                     l.End = temp;
                 }
-                else if (Math.Abs(l.Start.X - l.End.X) < 1e-9 && Math.Abs(l.Start.Y - l.End.Y) < 1e-9)
+                // lower if vertical
+                if ((Math.Abs(l.Start.X - l.End.X) < 1e-9 && l.Start.Y > l.End.Y))
                 {
+                    //swap
                     Point temp = l.Start;
                     l.Start = l.End;
                     l.End = temp;
@@ -76,6 +86,7 @@ namespace CGAlgorithms.Algorithms.SegmentIntersection
                 }
 
                 status.SwapLines(e.Segment1, e.Segment2, x);
+
 
                 FindNewEvent(e.Segment1, status.FindBelow(e.Segment1, x), e.Location, eventQueue);
                 FindNewEvent(e.Segment1, status.FindAbove(e.Segment1, x), e.Location, eventQueue);
