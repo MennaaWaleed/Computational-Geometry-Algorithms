@@ -103,7 +103,7 @@ Triangulates a polygon by repeatedly removing ears.
 # Convex Hull 
 ### Step 1
 ![Step 1](screenshots/convex1.png)
-### Step 2
+### Step 2 (Choose any Convex Hull Algorithm from the list)
 ![Step 1](screenshots/convex2.png)
 ---
 # Sweep Line 
