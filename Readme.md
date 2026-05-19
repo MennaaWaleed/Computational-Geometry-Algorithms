@@ -100,6 +100,26 @@ Triangulates a polygon by repeatedly removing ears.
 - O(n^2)
 
 ---
+# Convex Hull 
+### Step 1
+![Step 1](screenshots/convex1.png)
+### Step 2
+![Step 1](screenshots/convex2.png)
+---
+# Sweep Line 
+### Step 1
+![Step 1](screenshots/sweepingLine1.png)
+### Step 2
+![Step 1](screenshots/sweepingLine2.png)
+---
+# Subtracting Ears 
+### Step 1
+![Step 1](screenshots/SubtractingEars1.png)
+### Step 2
+![Step 1](screenshots/SubtractingEars2.png)
+---
+
+
 
 # Technologies Used
 
